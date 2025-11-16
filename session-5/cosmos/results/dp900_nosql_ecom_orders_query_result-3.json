@@ -1,0 +1,37 @@
+[
+    {
+        "id": "o-7013",
+        "customerName": "Laura Gómez",
+        "status": "Shipped",
+        "orderDate": "2025-11-16T16:23:48Z",
+        "total": 361.4
+    },
+    {
+        "id": "o-7012",
+        "customerName": "Peter Müller",
+        "status": "Shipped",
+        "orderDate": "2025-11-16T09:12:17Z",
+        "total": 2504.67
+    },
+    {
+        "id": "o-7011",
+        "customerName": "John Smith",
+        "status": "Paid",
+        "orderDate": "2025-11-15T21:43:03Z",
+        "total": 688.5
+    },
+    {
+        "id": "o-7010",
+        "customerName": "Ana Pérez",
+        "status": "Paid",
+        "orderDate": "2025-11-15T11:44:46Z",
+        "total": 908.15
+    },
+    {
+        "id": "o-7003",
+        "customerName": "Emma Johnson",
+        "status": "Paid",
+        "orderDate": "2025-11-09T18:24:18Z",
+        "total": 376.5
+    }
+]

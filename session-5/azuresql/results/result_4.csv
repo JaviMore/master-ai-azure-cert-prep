@@ -1,0 +1,16 @@
+OrderID,OrderDate,Status,CustomerName,Country
+1,2025-10-17 18:20:44.4298723,Paid,Anna Perez,Spain
+2,2025-10-27 18:20:44.4298723,Shipped,Anna Perez,Spain
+3,2025-11-01 18:20:44.4298723,Pending,Luis Garcia,Spain
+4,2025-11-04 18:20:44.4298723,Paid,Maria Lopez,Spain
+5,2025-10-07 18:20:44.4298723,Cancelled,John Smith,United Kingdom
+6,2025-11-08 18:20:44.4298723,Paid,Laura Gomez,Spain
+7,2025-11-11 18:20:44.4298723,Shipped,Emma Johnson,Ireland
+8,2025-11-13 18:20:44.4298723,Paid,Carlos Ruiz,Spain
+9,2025-11-14 18:20:44.4298723,Pending,Lucia Mendez,Spain
+10,2025-10-22 18:20:44.4298723,Paid,Sofia Rossi,Italy
+11,2025-11-06 18:20:44.4298723,Shipped,Peter Muller,Germany
+12,2025-10-29 18:20:44.4298723,Paid,Luis Garcia,Spain
+13,2025-11-09 18:20:44.4298723,Paid,Maria Lopez,Spain
+14,2025-11-15 18:20:44.4298723,Shipped,Lucia Mendez,Spain
+15,2025-11-12 18:20:44.4298723,Pending,Sofia Rossi,Italy

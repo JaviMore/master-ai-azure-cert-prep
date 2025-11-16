@@ -1,0 +1,22 @@
+[
+    {
+        "category": "Informática",
+        "unitsSold": 36,
+        "revenue": 17389.84
+    },
+    {
+        "category": "Periféricos",
+        "unitsSold": 53,
+        "revenue": 2552.9
+    },
+    {
+        "category": "Audio",
+        "unitsSold": 17,
+        "revenue": 1019.1500000000001
+    },
+    {
+        "category": "Almacenamiento",
+        "unitsSold": 10,
+        "revenue": 1090
+    }
+]

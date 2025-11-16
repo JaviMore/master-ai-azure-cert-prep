@@ -1,0 +1,47 @@
+[
+    {
+        "customerId": "c-1",
+        "totalOrders": 3,
+        "totalSpent": 1807.8899999999999
+    },
+    {
+        "customerId": "c-2",
+        "totalOrders": 4,
+        "totalSpent": 3411.67
+    },
+    {
+        "customerId": "c-3",
+        "totalOrders": 5,
+        "totalSpent": 686.3
+    },
+    {
+        "customerId": "c-4",
+        "totalOrders": 2,
+        "totalSpent": 1537.99
+    },
+    {
+        "customerId": "c-5",
+        "totalOrders": 5,
+        "totalSpent": 4780.67
+    },
+    {
+        "customerId": "c-6",
+        "totalOrders": 5,
+        "totalSpent": 1036.5
+    },
+    {
+        "customerId": "c-10",
+        "totalOrders": 3,
+        "totalSpent": 5320.55
+    },
+    {
+        "customerId": "c-7",
+        "totalOrders": 1,
+        "totalSpent": 3177.47
+    },
+    {
+        "customerId": "c-9",
+        "totalOrders": 2,
+        "totalSpent": 292.85
+    }
+]

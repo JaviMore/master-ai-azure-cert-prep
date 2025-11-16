@@ -1,0 +1,976 @@
+[
+  {
+    "id": "o-1001",
+    "customerId": "c-1",
+    "customer": {
+      "name": "Ana Pérez",
+      "city": "Madrid",
+      "country": "España"
+    },
+    "orderDate": "2025-11-01T10:15:00Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-1",
+        "name": "Portátil 14\"",
+        "category": "Informática",
+        "qty": 1,
+        "unitPrice": 799.99
+      },
+      {
+        "productId": "p-2",
+        "name": "Ratón Inalámbrico",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 19.9
+      }
+    ],
+    "total": 839.79,
+    "shipping": {
+      "method": "Express",
+      "cost": 6.99
+    }
+  },
+  {
+    "id": "o-1002",
+    "customerId": "c-1",
+    "customer": {
+      "name": "Ana Pérez",
+      "city": "Madrid",
+      "country": "España"
+    },
+    "orderDate": "2025-11-07T09:30:00Z",
+    "status": "Shipped",
+    "items": [
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 1,
+        "unitPrice": 59.95
+      }
+    ],
+    "total": 59.95,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0
+    }
+  },
+  {
+    "id": "o-2001",
+    "customerId": "c-2",
+    "customer": {
+      "name": "Luis García",
+      "city": "Barcelona",
+      "country": "España"
+    },
+    "orderDate": "2025-11-10T18:20:00Z",
+    "status": "Pending",
+    "items": [
+      {
+        "productId": "p-3",
+        "name": "Teclado Mecánico",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 89.0
+      },
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 1,
+        "unitPrice": 229.5
+      }
+    ],
+    "total": 318.5,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0
+    }
+  },
+  {
+    "id": "o-2002",
+    "customerId": "c-2",
+    "customer": {
+      "name": "Luis García",
+      "city": "Barcelona",
+      "country": "España"
+    },
+    "orderDate": "2025-10-29T12:00:00Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-2",
+        "name": "Ratón Inalámbrico",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 19.9
+      },
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 34.9
+      }
+    ],
+    "total": 54.8,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0
+    }
+  },
+  {
+    "id": "o-3001",
+    "customerId": "c-3",
+    "customer": {
+      "name": "María López",
+      "city": "Sevilla",
+      "country": "España"
+    },
+    "orderDate": "2025-10-28T14:05:00Z",
+    "status": "Cancelled",
+    "items": [
+      {
+        "productId": "p-2",
+        "name": "Ratón Inalámbrico",
+        "category": "Periféricos",
+        "qty": 3,
+        "unitPrice": 19.9
+      }
+    ],
+    "total": 59.7,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0
+    }
+  },
+  {
+    "id": "o-3002",
+    "customerId": "c-3",
+    "customer": {
+      "name": "María López",
+      "city": "Sevilla",
+      "country": "España"
+    },
+    "orderDate": "2025-11-03T08:45:00Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-6",
+        "name": "Disco SSD 1TB",
+        "category": "Almacenamiento",
+        "qty": 1,
+        "unitPrice": 109.0
+      },
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 1,
+        "unitPrice": 59.95
+      }
+    ],
+    "total": 168.95,
+    "shipping": {
+      "method": "Express",
+      "cost": 4.99
+    }
+  },
+  {
+    "id": "o-4001",
+    "customerId": "c-4",
+    "customer": {
+      "name": "John Smith",
+      "city": "London",
+      "country": "UK"
+    },
+    "orderDate": "2025-11-02T16:15:00Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-1",
+        "name": "Portátil 14\"",
+        "category": "Informática",
+        "qty": 1,
+        "unitPrice": 799.99
+      },
+      {
+        "productId": "p-8",
+        "name": "Webcam HD",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 49.5
+      }
+    ],
+    "total": 849.49,
+    "shipping": {
+      "method": "Express",
+      "cost": -0.0
+    }
+  },
+  {
+    "id": "o-5001",
+    "customerId": "c-5",
+    "customer": {
+      "name": "Laura Gómez",
+      "city": "Valencia",
+      "country": "España"
+    },
+    "orderDate": "2025-11-05T11:25:00Z",
+    "status": "Shipped",
+    "items": [
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 1,
+        "unitPrice": 229.5
+      }
+    ],
+    "total": 229.5,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0
+    }
+  },
+  {
+    "id": "o-6001",
+    "customerId": "c-6",
+    "customer": {
+      "name": "Emma Johnson",
+      "city": "Dublin",
+      "country": "Ireland"
+    },
+    "orderDate": "2025-10-30T10:00:00Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-3",
+        "name": "Teclado Mecánico",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 89.0
+      },
+      {
+        "productId": "p-2",
+        "name": "Ratón Inalámbrico",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 19.9
+      },
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 34.9
+      }
+    ],
+    "total": 143.8,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0
+    }
+  },
+  {
+    "id": "o-6002",
+    "customerId": "c-6",
+    "customer": {
+      "name": "Emma Johnson",
+      "city": "Dublin",
+      "country": "Ireland"
+    },
+    "orderDate": "2025-11-08T09:55:00Z",
+    "status": "Pending",
+    "items": [
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 2,
+        "unitPrice": 59.95
+      }
+    ],
+    "total": 119.9,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0
+    }
+  },
+  {
+    "id": "o-7001",
+    "customerId": "c-2",
+    "customer": {
+      "name": "Luis García",
+      "city": "Barcelona",
+      "country": "España"
+    },
+    "orderDate": "2025-11-05T03:18:03Z",
+    "status": "Pending",
+    "items": [
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 34.9
+      },
+      {
+        "productId": "p-1",
+        "name": "Portátil 14\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 799.99
+      }
+    ],
+    "total": 2434.87,
+    "shipping": {
+      "method": "Express",
+      "cost": 4.99
+    }
+  },
+  {
+    "id": "o-7002",
+    "customerId": "c-3",
+    "customer": {
+      "name": "María López",
+      "city": "Sevilla",
+      "country": "España"
+    },
+    "orderDate": "2025-11-15T20:47:25Z",
+    "status": "Pending",
+    "items": [
+      {
+        "productId": "p-6",
+        "name": "Disco SSD 1TB",
+        "category": "Almacenamiento",
+        "qty": 1,
+        "unitPrice": 109.0
+      },
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 3,
+        "unitPrice": 59.95
+      },
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 34.9
+      }
+    ],
+    "total": 323.75,
+    "shipping": {
+      "method": "Express",
+      "cost": 6.99
+    }
+  },
+  {
+    "id": "o-7003",
+    "customerId": "c-6",
+    "customer": {
+      "name": "Emma Johnson",
+      "city": "Dublin",
+      "country": "Ireland"
+    },
+    "orderDate": "2025-11-09T18:24:18Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-6",
+        "name": "Disco SSD 1TB",
+        "category": "Almacenamiento",
+        "qty": 3,
+        "unitPrice": 109.0
+      },
+      {
+        "productId": "p-8",
+        "name": "Webcam HD",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 49.5
+      }
+    ],
+    "total": 376.5,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0.0
+    }
+  },
+  {
+    "id": "o-7004",
+    "customerId": "c-3",
+    "customer": {
+      "name": "María López",
+      "city": "Sevilla",
+      "country": "España"
+    },
+    "orderDate": "2025-11-04T23:29:33Z",
+    "status": "Shipped",
+    "items": [
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 34.9
+      }
+    ],
+    "total": 34.9,
+    "shipping": {
+      "method": "Express",
+      "cost": 6.99
+    }
+  },
+  {
+    "id": "o-7005",
+    "customerId": "c-10",
+    "customer": {
+      "name": "Peter Müller",
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "orderDate": "2025-11-08T05:10:51Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 1,
+        "unitPrice": 229.5
+      },
+      {
+        "productId": "p-3",
+        "name": "Teclado Mecánico",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 89.0
+      }
+    ],
+    "total": 407.5,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0.0
+    }
+  },
+  {
+    "id": "o-7006",
+    "customerId": "c-7",
+    "customer": {
+      "name": "Carlos Ruiz",
+      "city": "Bilbao",
+      "country": "España"
+    },
+    "orderDate": "2025-10-25T22:54:15Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 229.5
+      },
+      {
+        "productId": "p-3",
+        "name": "Teclado Mecánico",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 89.0
+      },
+      {
+        "productId": "p-1",
+        "name": "Portátil 14\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 799.99
+      }
+    ],
+    "total": 3177.47,
+    "shipping": {
+      "method": "Express",
+      "cost": 3.99
+    }
+  },
+  {
+    "id": "o-7007",
+    "customerId": "c-5",
+    "customer": {
+      "name": "Laura Gómez",
+      "city": "Valencia",
+      "country": "España"
+    },
+    "orderDate": "2025-11-02T19:44:13Z",
+    "status": "Cancelled",
+    "items": [
+      {
+        "productId": "p-6",
+        "name": "Disco SSD 1TB",
+        "category": "Almacenamiento",
+        "qty": 3,
+        "unitPrice": 109.0
+      },
+      {
+        "productId": "p-1",
+        "name": "Portátil 14\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 799.99
+      },
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 229.5
+      }
+    ],
+    "total": 3415.47,
+    "shipping": {
+      "method": "Express",
+      "cost": 3.99
+    }
+  },
+  {
+    "id": "o-7008",
+    "customerId": "c-6",
+    "customer": {
+      "name": "Emma Johnson",
+      "city": "Dublin",
+      "country": "Ireland"
+    },
+    "orderDate": "2025-10-25T00:59:43Z",
+    "status": "Cancelled",
+    "items": [
+      {
+        "productId": "p-8",
+        "name": "Webcam HD",
+        "category": "Periféricos",
+        "qty": 3,
+        "unitPrice": 49.5
+      }
+    ],
+    "total": 148.5,
+    "shipping": {
+      "method": "Express",
+      "cost": 6.99
+    }
+  },
+  {
+    "id": "o-7009",
+    "customerId": "c-3",
+    "customer": {
+      "name": "María López",
+      "city": "Sevilla",
+      "country": "España"
+    },
+    "orderDate": "2025-10-27T06:28:52Z",
+    "status": "Pending",
+    "items": [
+      {
+        "productId": "p-8",
+        "name": "Webcam HD",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 49.5
+      }
+    ],
+    "total": 99.0,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0.0
+    }
+  },
+  {
+    "id": "o-7010",
+    "customerId": "c-1",
+    "customer": {
+      "name": "Ana Pérez",
+      "city": "Madrid",
+      "country": "España"
+    },
+    "orderDate": "2025-11-15T11:44:46Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 229.5
+      },
+      {
+        "productId": "p-2",
+        "name": "Ratón Inalámbrico",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 19.9
+      },
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 3,
+        "unitPrice": 59.95
+      }
+    ],
+    "total": 908.15,
+    "shipping": {
+      "method": "Express",
+      "cost": 6.99
+    }
+  },
+  {
+    "id": "o-7011",
+    "customerId": "c-4",
+    "customer": {
+      "name": "John Smith",
+      "city": "London",
+      "country": "UK"
+    },
+    "orderDate": "2025-11-15T21:43:03Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 229.5
+      }
+    ],
+    "total": 688.5,
+    "shipping": {
+      "method": "Standard",
+      "cost": 0.0
+    }
+  },
+  {
+    "id": "o-7012",
+    "customerId": "c-10",
+    "customer": {
+      "name": "Peter Müller",
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "orderDate": "2025-11-16T09:12:17Z",
+    "status": "Shipped",
+    "items": [
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 3,
+        "unitPrice": 34.9
+      },
+      {
+        "productId": "p-1",
+        "name": "Portátil 14\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 799.99
+      }
+    ],
+    "total": 2504.67,
+    "shipping": {
+      "method": "Express",
+      "cost": 4.99
+    }
+  },
+  {
+    "id": "o-7013",
+    "customerId": "c-5",
+    "customer": {
+      "name": "Laura Gómez",
+      "city": "Valencia",
+      "country": "España"
+    },
+    "orderDate": "2025-11-16T16:23:48Z",
+    "status": "Shipped",
+    "items": [
+      {
+        "productId": "p-3",
+        "name": "Teclado Mecánico",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 89.0
+      },
+      {
+        "productId": "p-8",
+        "name": "Webcam HD",
+        "category": "Periféricos",
+        "qty": 3,
+        "unitPrice": 49.5
+      },
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 34.9
+      }
+    ],
+    "total": 361.4,
+    "shipping": {
+      "method": "Express",
+      "cost": 6.99
+    }
+  },
+  {
+    "id": "o-7014",
+    "customerId": "c-5",
+    "customer": {
+      "name": "Laura Gómez",
+      "city": "Valencia",
+      "country": "España"
+    },
+    "orderDate": "2025-10-24T22:40:49Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 3,
+        "unitPrice": 59.95
+      },
+      {
+        "productId": "p-6",
+        "name": "Disco SSD 1TB",
+        "category": "Almacenamiento",
+        "qty": 1,
+        "unitPrice": 109.0
+      },
+      {
+        "productId": "p-8",
+        "name": "Webcam HD",
+        "category": "Periféricos",
+        "qty": 3,
+        "unitPrice": 49.5
+      }
+    ],
+    "total": 437.35,
+    "shipping": {
+      "method": "Express",
+      "cost": 6.99
+    }
+  },
+  {
+    "id": "o-7015",
+    "customerId": "c-9",
+    "customer": {
+      "name": "Sofia Rossi",
+      "city": "Rome",
+      "country": "Italy"
+    },
+    "orderDate": "2025-11-03T15:37:05Z",
+    "status": "Shipped",
+    "items": [
+      {
+        "productId": "p-6",
+        "name": "Disco SSD 1TB",
+        "category": "Almacenamiento",
+        "qty": 1,
+        "unitPrice": 109.0
+      }
+    ],
+    "total": 109.0,
+    "shipping": {
+      "method": "Express",
+      "cost": 3.99
+    }
+  },
+  {
+    "id": "o-7016",
+    "customerId": "c-10",
+    "customer": {
+      "name": "Peter Müller",
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "orderDate": "2025-11-01T14:42:13Z",
+    "status": "Pending",
+    "items": [
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 2,
+        "unitPrice": 59.95
+      },
+      {
+        "productId": "p-1",
+        "name": "Portátil 14\"",
+        "category": "Informática",
+        "qty": 2,
+        "unitPrice": 799.99
+      },
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 3,
+        "unitPrice": 229.5
+      }
+    ],
+    "total": 2408.38,
+    "shipping": {
+      "method": "Express",
+      "cost": 4.99
+    }
+  },
+  {
+    "id": "o-7017",
+    "customerId": "c-5",
+    "customer": {
+      "name": "Laura Gómez",
+      "city": "Valencia",
+      "country": "España"
+    },
+    "orderDate": "2025-10-20T16:24:08Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 1,
+        "unitPrice": 59.95
+      },
+      {
+        "productId": "p-8",
+        "name": "Webcam HD",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 49.5
+      },
+      {
+        "productId": "p-3",
+        "name": "Teclado Mecánico",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 89.0
+      }
+    ],
+    "total": 336.95,
+    "shipping": {
+      "method": "Express",
+      "cost": 3.99
+    }
+  },
+  {
+    "id": "o-7018",
+    "customerId": "c-9",
+    "customer": {
+      "name": "Sofia Rossi",
+      "city": "Rome",
+      "country": "Italy"
+    },
+    "orderDate": "2025-11-15T11:21:03Z",
+    "status": "Pending",
+    "items": [
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 34.9
+      },
+      {
+        "productId": "p-3",
+        "name": "Teclado Mecánico",
+        "category": "Periféricos",
+        "qty": 1,
+        "unitPrice": 89.0
+      },
+      {
+        "productId": "p-5",
+        "name": "Auriculares BT",
+        "category": "Audio",
+        "qty": 1,
+        "unitPrice": 59.95
+      }
+    ],
+    "total": 183.85,
+    "shipping": {
+      "method": "Express",
+      "cost": 3.99
+    }
+  },
+  {
+    "id": "o-7019",
+    "customerId": "c-2",
+    "customer": {
+      "name": "Luis García",
+      "city": "Barcelona",
+      "country": "España"
+    },
+    "orderDate": "2025-11-01T09:46:29Z",
+    "status": "Paid",
+    "items": [
+      {
+        "productId": "p-4",
+        "name": "Monitor 27\"",
+        "category": "Informática",
+        "qty": 2,
+        "unitPrice": 229.5
+      },
+      {
+        "productId": "p-2",
+        "name": "Ratón Inalámbrico",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 19.9
+      },
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 3,
+        "unitPrice": 34.9
+      }
+    ],
+    "total": 603.5,
+    "shipping": {
+      "method": "Express",
+      "cost": 6.99
+    }
+  },
+  {
+    "id": "o-7020",
+    "customerId": "c-6",
+    "customer": {
+      "name": "Emma Johnson",
+      "city": "Dublin",
+      "country": "Ireland"
+    },
+    "orderDate": "2025-10-23T04:50:37Z",
+    "status": "Cancelled",
+    "items": [
+      {
+        "productId": "p-3",
+        "name": "Teclado Mecánico",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 89.0
+      },
+      {
+        "productId": "p-7",
+        "name": "Base USB-C",
+        "category": "Periféricos",
+        "qty": 2,
+        "unitPrice": 34.9
+      }
+    ],
+    "total": 247.8,
+    "shipping": {
+      "method": "Express",
+      "cost": 3.99
+    }
+  }
+]
