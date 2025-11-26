@@ -3,7 +3,7 @@
 | Program |Link |
 | ----------- | ----------- |
 | Azure CLI | https://learn.microsoft.com/es-es/cli/azure/install-azure-cli-windows?view=azure-cli-latest |
-| Visual Studio Code | https://code.visualstudio.com/Download |
+| Visual Studio Code | https://www.microsoft.com/es-es/power-platform/products/power-bi/desktop |
 | Power BI | https://www.python.org/downloads/ |
 | SQL Server (mssql) Plugin | https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql |
 
@@ -115,7 +115,7 @@ Order Count = COUNTROWS(Orders)
 ### 10. Slicer: Year, Status   
 
 1. Insert a **Slicer** visual:
-   - **Field** → `Orders[Year]`
+   - **Value** → `Orders[Year]`
 
 2. Insert a **Slicer** visual:
-   - **Field** → `Orders[Status]`
+   - **Value** → `Orders[Status]`
